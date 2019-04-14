@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Kontakt</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Milan">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <style>
+                       
+        </style>
+        
+    </head>
+
+    <body>
+ <div class="container">
+              <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+ 
+                    <a class="navbar-brand">
+                      <img src="slike/logo.png" alt="logo" style="width:40px;">
+                    </a>
+                  
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">O meni</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="projekti.html">Projekti</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                      </li>
+                    </ul>
+                  </nav>
+ </div>
+<div class="container">
+<section class="form-section">
+<h5 class="text-center">Kontakt</h5>
+<h5>Ukoliko želite da budemo u kontaktu, molim Vas da popunite formular</h5>
+<form action="/action_page.php">
+    <div class="form-group">
+      <label for="UserName">Ime*</label>  
+      <input class="form-control form-control-sm" type="text" name="UserName" id="UserName" placeholder="Vaše ime" required>
+    </div>
+    <div class="form-group">
+        <label for=LastName">Prezime*</label>  
+        <input class="form-control form-control-sm" type="text" name="LastName" id="LastName" placeholder="Vaše prezime" required>
+      </div>
+    <div class="form-group">
+    <label for="UserEmail">E-mail*</label>  
+    <input class="form-control form-control-lg" type="email" name="UserEmail" id="UserEmail" required>
+    </div>
+          <div class="form-group">
+                <label for="PorukaKomentar">Poruka - Komentar*</label>  
+                <textarea class="form-control" name="PorukaKomentar" id="PorukaKomentar" required></textarea>
+        </div>
+
+
+    <h5>Izaberi pol:</h5> 
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="pol" value="m" >Muški
+            </label>
+        </div>
+        <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="pol" value="z" checked>Ženski
+                </label>
+            </div>
+            <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="pol" value="no">Neću da odgovorim!!!
+                    </label>
+                </div>
+
+
+       <h5>Da li želite da primate obaveštenja sa sajta:</h5> 
+       <div class="form-check">
+           <label class="form-check-label">
+               <input type="checkbox" class="form-check-input" name="obavestenja" value="posta">Poštom
+           </label>
+       </div>
+       <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" name="obavestenja" value="mejlom" checked>Mail-om
+            </label>
+        </div>
+        <div class="form-check">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="obavestenja" value="golub" >Golubom pismonošem
+                </label>
+            </div>
+
+        
+    <button class="btn btn-secondary btn-lg" type="submit">Pošalji</button> 
+    <button class="btn btn-danger btn-sm" type="reset">Reset - Obriši</button>   
+</form>
+</section>
+</div> 
+
+<br>
+<div class="container">
+  <footer>
+    <h6>by Milan B. 2019.</h6>
+  </footer>
+</div>
+<br>
+
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+
+
+
+
